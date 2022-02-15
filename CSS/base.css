@@ -33,9 +33,9 @@
 .bg-transparent { background-color:var(--color-transparent); }
 .bg-dark-transparent {background-color:var(--color-dark-transparent); }
 
-/************
-***jdjdj***
-*************/
+/*******************
+*** Text Colors ***
+********************/
 .text-primary{ color:var(--color-primary); }
 .text-secondary{ color:var(--color-secondary); }
 .text-success{ color:var(--color-success); }
@@ -45,4 +45,18 @@
 .text-light{ color:var(--color-light); }
 .text-dark{ color:var(--color-dark); }
 .text-white{ color:var(--color-white); }
+.text-cozy{ color:var(--color-cozy); }
 
+/********************
+*** Border Colors ***
+*********************/
+.border-color-primary { border-color:var(--color-primary)!important; }
+.border-color-secondary { border-color:var(--color-secondary)!important; }
+.border-color-success { border-color:var(--color-success)!important; } 
+.border-color-info { border-color:var(--color-info)!important; }
+.border-color-warning { border-color:var(--color-warning)!important; }
+.border-color-danger { border-color:var(--color-danger)!important; }
+.border-color-light { border-color:var(--color-light)!important; }
+.border-color-dark { border-color:var(--color-dark)!important; }
+.border-color-white { border-color:var(--color-white)!important; }
+.border-color-cozy { border-color:var(--color-cozy)!important; }
