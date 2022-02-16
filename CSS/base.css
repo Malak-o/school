@@ -1,7 +1,7 @@
 :root{
-    /***************
-    *** Colors ***
-    ****************/
+/***************
+*** Colors ***
+****************/
     --color-primary: #a597e7;
     --color-secondary: #6c757d;
     --color-success: #b5d56a;
@@ -15,7 +15,28 @@
     --color-transparent:transparent;
     --color-border: #dee2e6;
     --color-dark-transparent: rgba(0, 0, 0, 0.2);
+
+
+/**************
+*** Display ***
+***************/
+--display-xxs: 1rem;
+--dispaly-xs: 1.4rem;
+--display-sm: 1.6rem;
+--display-md: 1.8rem; 
+--display-lg: 2rem;
+--display-xl: 2.5rem;
+--display-xxl: 3rem;
+
+/*****************
+*** Lineheight ***
+******************/
+--line-height-sm: 1rem; 
+--line-height-md: 1.6rem;
+--line-height-lg: 3rem;
+
 }
+
 
 /***********************
 ** Background Colors **
