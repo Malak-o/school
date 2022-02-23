@@ -1,3 +1,12 @@
+/************
+** Widths **
+*************/
+.max-width { max-width: 192rem; }
+
+/* Margin */
+.mr-auto, mx-auto { margin-right: auto; }
+.ml-auto, mx-auto { margin-left: auto; }
+
 /******************
 *** Colored bar ***
 *******************/
