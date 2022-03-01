@@ -12,30 +12,97 @@
     <link href="css/flex.css" rel="stylesheet">
     <link href="css/layout.css" rel="stylesheet">
     <link href="css/crayon.css" rel="stylesheet">
-    <link href="css/mediaqueries.css" rel="stylesheet" >
+    <link href="css/mediaqueries.css" rel="stylesheet">
+
 </head>
 <body>
     <!-- Navigation-->
     <header>
       <!-- Colored Bars -->
-      <div class="d-flex">-
+      <div class="d-flex">
+          <div class="flex-grow bg-warning bar-heihgt"></div>
+          <div class="flex-grow bg-success bar-height"></div>
+          <div class="flex-grow bg-danger bar-height"></div>
+          <div class="flex-grow bg-info bar-height"></div>
+          <div class="flex-grow bg-primary bar-height"></div>
+          <div class="flex-grow bg-cozy bar-height"></div>
+
+          <div class="flex-grow bg-warning bar-height"></div>
+          <div class="flex-grow bg-success bar-height"></div>
+          <div class="flex-grow bg-danger bar-height"></div>
+          <div class="flex-grow bg-info bar-height"></div>
+          <div class="flex-grow bg-primary bar-height"></div>
+          <div class="flex-grow bg-cozy bar-height"></div>
+
       </div>
 
       <nav class="d-flex max width justify-content-between align-items-center mx-auto p-6">
           <img class="logo-width" src="images/logo-school.png">
-          <div class="d-flex justify-content-between">
+          <div class="d-flex justify-content-between d-sm-none">
               <a href="#" class="d-flex flex-column align-items-center text-decoration-none">
-                  <div class="bg-info align-items-center justify-content-center bg-info p-4 circle shadow-sm">
-                      <i class="fa fa-home text-white"></i>
+                  <div class="d-flex align-items-center justify-content-center bg-info p-4 circle shadow-sm">
+                      <i class="fa-solid fa-house-chimney text-white"></i>
                   </div>
-                  <span class="text-info">Home</span>
+                  <span class="text-info mt-4 lh-sm">Home</span>
+              </a>
+              <a href="#" class="d-flex flex-column align-items-center text-decoration-none">
+                  <div class="d-flex align-items-center justify-content-center bg-cozy p-4 circle shadow-sm">
+                      <i class="fa-solid fa-store text-white"></i>
+                  </div>
+                  <span class="text-cozy mt-4 lh-sm">Store</span>
+              </a>
+              <a href="#" class="d-flex flex-column align-items-center text-decoration-none">
+                  <div class="d-flex align-items-center justify-content-center bg-success p-4 circle shadow-sm">
+                      <i class="fa-solid fa-user-gradute text-white"></i>
+                  </div>
+                  <span class="text-success mt-4 lh-sm">Courses</span>
+              </a>
+              <a href="#" class="d-flex flex-column align-items-center text-decoration-none">
+              <div class="d-flex align-items-center justify-content-center bg-warning p-4 circle shadow-sm">
+                  <i class="fa-soild fa-blog text-white"></i>  
+              </div>
+              <span class="text-warning mt-4 lh-sm">Blog</span>
+              </a>
+            </div>
+          <div class="d-flex justify-content-between">
+              <a href="#" class="d-felx flex-column align-items-center text-decoration-none position-relative">
+                  <div class="d-flex align-items-center justify-content-between bg-cozy border-radius p-4 shadow-sm">
+                     <i class="fa-solid fa-basket-shopping text-white"></i> 
+                  </div>
+                  <span class="text-white posyion-absolute icon-bagde circle bg-success border-small-white text-size-xxs">3</span>
+              </a>
+              <a href="#" class="d-flex flex-column align-items-center text-decoration-none postion-relative d-none d-sm-block">
+                 <div class="d-flex align-items-center justify-content-center bg-info border-radius p-4 shadow-sm">
+                     <i class="fa fa-bars text-white"></i>
+                 </div> 
               </a>
           </div>
-          <div>test</div>
       </nav>
       
-        <!-- Colored Bars -->
-        <div class="d-flex">-
+        <!-- Colored Bars (small Devices) -->
+        <div class="d-flex">
+            <div class="flex-grow bg-warning bar-height"></div>
+            <div class="flex-grow bg-success bar-height"></div>
+            <div class="flex-grow bg-danger bar-height"></div>
+            <div class="flex-grow bg-info bar-height"></div>
+            <div class="flex-grow bg-primary bar-height"></div>
+            <div class="flex-grow bg-cozy bar-height"></div>
+
+            <div class="flex-grow bg-warning bar-height"></div>
+            <div class="flex-grow bg-success bar-height"></div>
+            <div class="flex-grow bg-danger bar-height"></div>
+            <div class="flex-grow bg-info bar-height"></div>
+            <div class="flex-grow bg-primary bar-height"></div>
+            <div class="flex-grow bg-cozy bar-height"></div>
+        </div>
+        <!-- Drop-down nav (small dev.)-->
+        <div class="mx-6 d-none d-sm-block">
+            <a href="#" class="d-flex flex-reverse align-items-center text-decoration-none p-6 border-bottom-xs">
+                
+                <div>
+                    <i></i>
+                </div>
+            </a>
         </div>
     </header>
 </body>
