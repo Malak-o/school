@@ -44,7 +44,7 @@
 
 .mr-4, .mx-4 { margin-right: var(--distance-4); }
 .ml-4, .mx-4 { margin-left: var(--distance-4); }
-.mr-6, .mx-6 {margin-right: var(--distance-6); }
+.mr-6, .mx-6 { margin-right: var(--distance-6); }
 .ml-6, .mx-6 { margin-left: var(--distance-6); }
 
 /** Padding **/
@@ -136,7 +136,7 @@ nav div a:not(:first-child) { margin-left: var(--distance-12); }
 /***************
 ** Icons **
 ****************/
-.icon-feature { width: 7.6rem; padding: 0.375rem; }
+.icon-feature { width: 7.6rem; height: 7.6rem; padding: 0.375rem; }
 .icon-circle { width: 6.2rem; height: 6.2rem; padding: 0rem; }
 .icon-form-control { right: 10px; top: 10px; }
 
