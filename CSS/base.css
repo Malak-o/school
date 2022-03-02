@@ -99,7 +99,7 @@ body {
     min-height: 100vh;
 }
 
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 { font-family: "Doris", "Open Sans", sans-serif; font-weight: 700; letter-spacing: .05rem; }
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 { font-family: "Dodis", "Open Sans", sans-serif; font-weight: 700; letter-spacing: .05rem; }
 .ht, h1 {font-size: var(--distance-13); }
 
 
@@ -120,7 +120,7 @@ body {
 .bg-dark-transparent {background-color:var(--color-dark-transparent); }
 
 /*******************
-*** Text Colors ***
+*** Text ***********
 ********************/
 .text-primary{ color:var(--color-primary); }
 .text-secondary{ color:var(--color-secondary); }

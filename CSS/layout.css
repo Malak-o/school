@@ -1,6 +1,9 @@
 /************
 ** Widths **/
 .max-width { max-width: 192rem; }
+.card-width { max-width: 60rem; }
+.width-lg { max-width: 50%; }
+.min-width-xxl { min-width: 100%; }
 
 /*Position*/
 .position-relative { position: relative !important; }
