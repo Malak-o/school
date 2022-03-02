@@ -58,8 +58,8 @@
 /**************
 *** Shadows ***
 ****************/
---shadow-small-light: .15rem .15rem 0 rgba(0, 0, 0, .1);
---shadow-large-light: .25rem .25rem 0 rgba(0, 0, 0, .1);
+--shadow-small-light: .15rem .15rem 0 rgba(0, 0, 0, .103);
+--shadow-large-light: .25rem .25rem 0 rgba(0, 0, 0, .11);
 
 /*************
 *** Borders ***

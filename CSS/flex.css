@@ -2,16 +2,21 @@
 *** Display ***
 ***************/
 .d-flex{ display: flex; }
+.d-none { display: none; }
 
 /********
 ** Flex **
 *********/
 .flex-row { flex-direction: row; }
 .flex-column { flex-direction: column; }
+.flex-reverse { flex-direction: row-reverse; }
 .flex-grow{ flex-grow: 1; }
+.flex-wrap { flex-wrap: wrap; }
 
 /**********************
 ** Align & Justify **
 ***********************/
 .justify-content-between { justify-content: space-between; }
+.justify-content-center { justify-content: center; }
+.justify-content-around { justify-content: space-around; }
 .align-items-center{ align-items: center; }
