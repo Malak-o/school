@@ -69,13 +69,13 @@
 .text-uppercase { text-transform: uppercase; }
 .text-bold { font-weight: bold; }
 
-.text-size-xxs { font-size: var(--distance-xxs); }
-.text-size-xs { font-size: var(--distance-xs); }
-.text-size-sm { font-size: var(--distance-sm); }
-.text-size-md { font-size: var(--distance-md); }
-.text-size-lg { font-size: var(--distance-lg); }
-.text-size-xl { font-size: var(--distance-xl); }
-.text-size-xxl { font-size: var(--distance-xxl); }
+.text-size-xxs { font-size: var(--display-xxs); }
+.text-size-xs { font-size: var(--display-xs); }
+.text-size-sm { font-size: var(--display-sm); }
+.text-size-md { font-size: var(--display-md); }
+.text-size-lg { font-size: var(--display-lg); }
+.text-size-xl { font-size: var(--display-xl); }
+.text-size-xxl { font-size: var(--display-xxl); }
 
 .lh-sm { line-height: var(--line-height-sm); }
 .lh-mm { line-height: var(--line-height-md); }
