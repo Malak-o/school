@@ -83,6 +83,8 @@
 
 /** Circle **/
 .circle { border-radius: 100%; }
+.circle-lg { width: 15rem; height: 15rem;}
+
 .circle-lg { width: 15rem; height: 15rem; }
 
 /** Shadows **/
@@ -107,7 +109,7 @@ nav div a:not(:first-child) { margin-left: var(--distance-12); }
 
 /******************
 *** Colored bar ***/
-.bar-height { height: .3rem; }
+.bar-height { height: 0.3rem; }
 
 /** Images **/
 .logo-width { max-width: 13rem; }
@@ -139,6 +141,7 @@ nav div a:not(:first-child) { margin-left: var(--distance-12); }
 .icon-feature { width: 7.6rem; height: 7.6rem; padding: 0.375rem; }
 .icon-circle { width: 6.2rem; height: 6.2rem; padding: 0rem; }
 .icon-form-control { right: 10px; top: 10px; }
+
 
 /******************
 *** Statistic ****
