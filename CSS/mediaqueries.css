@@ -1,5 +1,5 @@
-@media only screen and (max-width: 68.75em) /* 1100pz / 16px = 68.75em */
-    html {font-size: 50%; }
+@media only screen and (max-width: 68.75em) { /* 1100pz / 16px = 68.75em */
+    .html {font-size: 50%; }
 }
 
 @media screen and (max-width: 56.25em) { /* 900 / 16px = 56.25em */
